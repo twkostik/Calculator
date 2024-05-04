@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Booble Calculator</string>
+    <string name="app_name">Calculator</string>
     <string name="backspace">&#x232B;</string>
     <string name="percent">&#x25;</string>
     <string name="multi">&#xd7;</string>
