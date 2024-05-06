@@ -189,6 +189,7 @@ public class MainActivity extends AppCompatActivity {
                     example = "";
                     result = "";
                     number = answer.substring(1);
+                    number = number.replace(",", ".");
                 }
             }
         }
@@ -197,6 +198,7 @@ public class MainActivity extends AppCompatActivity {
         if(example.isEmpty()){
             textView.setText(number.isEmpty()?"0":number);
         } else {
+            example = example.replace(",", ".");
             textView.setText(example + (number.isEmpty() ?"":number));
         }
         flag = false;
